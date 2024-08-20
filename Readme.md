@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new streetaddressparserQueryOptions {
+var queryOptions = new StreetAddressParserQueryOptions {
   address = "1600 Amphitheatre Parkway, Mountain View, CA"
 };
 ```
@@ -102,7 +102,8 @@ if(response.error != null) {
       "cityName": "Mountain View",
       "stateName": "CA"
     }
-  }
+  },
+  "code": 200
 }
 ```
 
